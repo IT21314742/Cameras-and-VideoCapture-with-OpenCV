@@ -4,4 +4,4 @@ import cv2
 cap = cv2.VideoCapture(0)
 
 while True:
-    ret, frame = (root)
+    ret, frame = cap.read(root)
