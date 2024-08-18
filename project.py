@@ -12,3 +12,4 @@ while True:
         break
 
 cap.release()
+cv2
