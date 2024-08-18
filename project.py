@@ -8,7 +8,7 @@ while True:
 
     cv2.imshow('frame', frame)
 
-    image = np
+    image = np.zeros
 
     if cv2.waitKey(1) == ord('q'):
         break
