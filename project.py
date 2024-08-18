@@ -6,9 +6,9 @@ cap = cv2.VideoCapture(0)
 while True:
     ret, frame = cap.read()
 
-    cv2.imshow('frame', frame.shape, np.uint8)
+    image = np.zeros( frame.shape, np.uint8)
 
-    image = np.zeros()
+    cv2.imshow('frame')
 
     if cv2.waitKey(1) == ord('q'):
         break
