@@ -5,7 +5,7 @@ cap = cv2.VideoCapture(0)
 
 while True:
     ret, frame = cap.read()
-    width = cap.get(3)
+    width = intcap.get(3)
 
     image = np.zeros( frame.shape, np.uint8)
     smaller_frame = cv2.resize(frame, (0, 0), fx=0.5, fy=0.5)
