@@ -7,7 +7,7 @@ while True:
     ret, frame = cap.read()
 
     image = np.zeros( frame.shape, np.uint8)
-    smaller_frame = cv2.resize()
+    smaller_frame = cv2.resize(frame)
     cv2.imshow('frame', image)
 
     if cv2.waitKey(1) == ord('q'):
